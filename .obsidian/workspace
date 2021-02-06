@@ -1,0 +1,122 @@
+{
+  "main": {
+    "id": "df7dcc8273fb7bd9",
+    "type": "split",
+    "children": [
+      {
+        "id": "e314864cd7212830",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Java 基础/ConcurrentHashMap.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8a83b6aa0a42965e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a952630fead20006",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36b24cbda89991a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "cb900f2e47b9cf5d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#参考资料",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 360,
+    "collapsed": true
+  },
+  "right": {
+    "id": "a6ff6e4cfe2d9991",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc5e8a32d62f68b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4788a9b18558d54",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java 基础/ConcurrentHashMap.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a0d6908cae30e21f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java 基础/ConcurrentHashMap.md"
+              }
+            }
+          },
+          {
+            "id": "7dbaed5e80893c6a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "Java 基础/ConcurrentHashMap.md",
+    "Java 基础/HashMap.md",
+    "Java 基础/Enum 枚举.md",
+    "MyBatis/缓存.md",
+    "LeetCode/单调栈/柱状图中最大的矩形.md",
+    "系统设计/秒杀系统.md",
+    "Java 虚拟机/垃圾回收.md",
+    "Spring/how-spring-boot-autoconfigure-works.png",
+    "Spring/配置.md",
+    "常用工具/Linux安全.md"
+  ]
+}
