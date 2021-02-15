@@ -382,6 +382,33 @@ public int size() {
 // 当在初始化**后**，sizeCtl的值为进行resize的阈值
 private transient volatile int sizeCtl;
 
+
+/**
+ * The bin count threshold for using a tree rather than list for a
+ * bin.  Bins are converted to trees when adding an element to a
+ * bin with at least this many nodes. The value must be greater
+ * than 2, and should be at least 8 to mesh with assumptions in
+ * tree removal about conversion back to plain bins upon
+ * shrinkage.
+ */
+static final int TREEIFY_THRESHOLD = 8;
+
+/**
+ * The bin count threshold for untreeifying a (split) bin during a
+ * resize operation. Should be less than TREEIFY_THRESHOLD, and at
+ * most 6 to mesh with shrinkage detection under removal.
+ */
+static final int UNTREEIFY_THRESHOLD = 6;
+
+/**
+ * The smallest table capacity for which bins may be treeified.
+ * (Otherwise the table is resized if too many nodes in a bin.)
+ * The value should be at least 4 * TREEIFY_THRESHOLD to avoid
+ * conflicts between resizing and treeification thresholds.
+ */
+
+static final int MIN_TREEIFY_CAPACITY = 64;
+
 /* Upon transfer, the old table bin contains
  * only a special forwarding node (with hash field "MOVED") that
  * contains the next table as its key. On encountering a

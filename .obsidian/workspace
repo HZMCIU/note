@@ -4,15 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e314864cd7212830",
+        "id": "865ce568845b2912",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Java 基础/ConcurrentHashMap.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +37,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#参考资料",
+                "query": "zset",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -49,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -70,7 +68,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java 基础/ConcurrentHashMap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Java 基础/ConcurrentHashMap.md"
-              }
+              "state": {}
             }
           },
           {
@@ -109,6 +104,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Redis/应用场景.md",
     "Java 基础/ConcurrentHashMap.md",
     "算法/红黑树.md",
     "Java 基础/HashMap.md",
@@ -117,7 +113,6 @@
     "LeetCode/单调栈/柱状图中最大的矩形.md",
     "系统设计/秒杀系统.md",
     "Java 虚拟机/垃圾回收.md",
-    "Spring/how-spring-boot-autoconfigure-works.png",
-    "Spring/配置.md"
+    "Spring/how-spring-boot-autoconfigure-works.png"
   ]
 }
