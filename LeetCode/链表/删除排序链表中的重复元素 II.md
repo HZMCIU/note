@@ -13,7 +13,7 @@ class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode dummy = new ListNode(-1153); // 设置一个随机数，和链表头节点不一样
         dummy.next = head;
-        ListNode p1 = dummy;
+        ListNode p1 = head;
         ListNode pre = dummy; //前驱指针
         while (p1 != null) {
             // 删除重复的链表段，前驱指针不更新

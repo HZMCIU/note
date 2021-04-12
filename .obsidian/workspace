@@ -4,12 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "865ce568845b2912",
+        "id": "e64738015a74f915",
         "type": "leaf",
-        "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "LeetCode/剑指Offer/剑指 Offer 66. 构建乘积数组-todo.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -24,35 +26,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36b24cbda89991a8",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
             "id": "cb900f2e47b9cf5d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "zset",
+                "query": "file:奇偶",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "b25710bf88fb091d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "727a856abb024e67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 360,
-    "collapsed": true
+    "width": 443
   },
   "right": {
     "id": "a6ff6e4cfe2d9991",
@@ -68,9 +77,12 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LeetCode/剑指Offer/剑指 Offer 66. 构建乘积数组-todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -81,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LeetCode/剑指Offer/剑指 Offer 66. 构建乘积数组-todo.md"
+              }
             }
           },
           {
@@ -94,25 +108,34 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "ccebe617ca58f586",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
+  "active": "e64738015a74f915",
   "lastOpenFiles": [
-    "Redis/应用场景.md",
-    "Java 基础/ConcurrentHashMap.md",
-    "算法/红黑树.md",
-    "Java 基础/HashMap.md",
-    "Java 基础/Enum 枚举.md",
-    "MyBatis/缓存.md",
-    "LeetCode/单调栈/柱状图中最大的矩形.md",
-    "系统设计/秒杀系统.md",
-    "Java 虚拟机/垃圾回收.md",
-    "Spring/how-spring-boot-autoconfigure-works.png"
+    "LeetCode/剑指Offer/剑指 Offer 66. 构建乘积数组-todo.md",
+    "LeetCode/剑指Offer/面试题59 - I. 滑动窗口的最大值.md",
+    "LeetCode/剑指Offer/剑指 Offer 64. 求1+2+…+n.md",
+    "LeetCode/剑指Offer/剑指 Offer 60. n个骰子的点数.md",
+    "LeetCode/剑指Offer/剑指 Offer 59 - II. 队列的最大值.md",
+    "LeetCode/剑指Offer/剑指 Offer 60. n个骰子的点数-todo.md",
+    "LeetCode/剑指Offer/剑指 Offer 56 - II. 数组中数字出现的次数 II.md",
+    "LeetCode/剑指Offer/剑指 Offer 56 - II. 数组中数字出现的次数 II-todo.md",
+    "LeetCode/剑指Offer/剑指 Offer 20. 表示数值的字符串.md",
+    "LeetCode/剑指Offer/剑指 Offer 56 - I. 数组中数字出现的次数.md"
   ]
 }

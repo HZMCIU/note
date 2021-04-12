@@ -8,7 +8,7 @@ ConcurrentHashMap它采**锁分段技术** 来保证高效的并发操作。Conc
 
 ![](jdk1.7_concurrenthashmap.png)
 
-## 源码分析[^6] [^5]
+## [[]]源码分析[^6] [^5]
 
 ### 重要参数
 

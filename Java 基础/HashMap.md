@@ -6,15 +6,7 @@
 
 ### `Entry` 内部类
 
-HashMap的主干是一个Entry数组。Entry是HashMap的基本组成单元，每一个Entry包含一个key-value键值对。
-
-```java
-//HashMap的主干数组，可以看到就是一个Entry数组，初始值为空数组{}，主干数组的长度一定是2的次幂。
-transient Entry<K,V>[] table = (Entry<K,V>[]) EMPTY_TABLE;
-```
-
-Entry是HashMap中的一个静态内部类。
-
+[[HashMap的主干是一个Entry数组。Entry是HashMap的基本组成单元，每一个Entry包含一个key-value键值对。]]
 ```java
 static class Entry<K, V> implements Map.Entry<K, V> {
     final K key;

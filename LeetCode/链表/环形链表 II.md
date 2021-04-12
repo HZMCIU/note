@@ -21,25 +21,22 @@
 ```java
 public class Solution {
     public ListNode detectCycle(ListNode head) {
-        if (head == null)
-            return head;
-        ListNode slow = head, fast = head;
-        while (fast != null) {
-            slow = slow.next;
-            fast = fast.next;
-            if (fast != null)
-                fast = fast.next;
-            else
+        if (head == null || head.next == null)
+            return null;
+        ListNode slow = head, fast = head, ptr = head;
+        do {
+            if (fast == null || fast.next == null)
                 return null;
-            if (slow == fast) {
-                ListNode ptr = head;
-                while (slow != ptr) {
-                    slow = slow.next;
+            slow = slow.next;
+            fast = fast.next.next;
+            if (fast == slow) {
+                while (ptr != slow) {
                     ptr = ptr.next;
+                    slow = slow.next;
                 }
-                return slow;
+                return ptr;
             }
-        }
+        } while (slow != fast);
         return null;
     }
 }

@@ -4,8 +4,6 @@
 
 # 远程同步[^1]
 
-
-
 ## `git clone`
 
 `git clone` 从远程主机上，克隆一个版本库。该命令会在本地主机上生成一个目录，目录的名称默认和远程版本库相同。可以设置`git clone`的第二个参数来指定本地目录的名称。
@@ -199,7 +197,7 @@ git pull origin next # git pull origin next。取回origin/next分支，再与�
 
   
 
-# 撤销操作[^2]
+## 撤销操作[^2]
 
 ## `git revert`
 
