@@ -7,11 +7,8 @@
         "id": "e64738015a74f915",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "LeetCode/剑指Offer/剑指 Offer 66. 构建乘积数组-todo.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -61,7 +58,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443
+    "width": 443,
+    "collapsed": true
   },
   "right": {
     "id": "a6ff6e4cfe2d9991",
@@ -77,7 +75,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LeetCode/剑指Offer/剑指 Offer 66. 构建乘积数组-todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +90,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "LeetCode/剑指Offer/剑指 Offer 66. 构建乘积数组-todo.md"
-              }
+              "state": {}
             }
           },
           {
@@ -127,15 +122,15 @@
   },
   "active": "e64738015a74f915",
   "lastOpenFiles": [
-    "LeetCode/剑指Offer/剑指 Offer 66. 构建乘积数组-todo.md",
-    "LeetCode/剑指Offer/面试题59 - I. 滑动窗口的最大值.md",
-    "LeetCode/剑指Offer/剑指 Offer 64. 求1+2+…+n.md",
-    "LeetCode/剑指Offer/剑指 Offer 60. n个骰子的点数.md",
-    "LeetCode/剑指Offer/剑指 Offer 59 - II. 队列的最大值.md",
-    "LeetCode/剑指Offer/剑指 Offer 60. n个骰子的点数-todo.md",
-    "LeetCode/剑指Offer/剑指 Offer 56 - II. 数组中数字出现的次数 II.md",
-    "LeetCode/剑指Offer/剑指 Offer 56 - II. 数组中数字出现的次数 II-todo.md",
-    "LeetCode/剑指Offer/剑指 Offer 20. 表示数值的字符串.md",
-    "LeetCode/剑指Offer/剑指 Offer 56 - I. 数组中数字出现的次数.md"
+    "LeetCode/链表/排序链表.md",
+    "LeetCode/链表/链表的中间结点.md",
+    "LeetCode/链表/25. K 个一组翻转链表-todo.md",
+    "LeetCode/链表/23. 合并K个升序链表-todo.md",
+    "LeetCode/剑指Offer/剑指 Offer 56 - I. 数组中数字出现的次数.md",
+    "Java 基础/Enum 枚举.md",
+    "Java 基础/ConcurrentHashMap.md",
+    "Java 基础/未命名绘图.png",
+    "算法/红黑树.md",
+    "数据库/备份.md"
   ]
 }
